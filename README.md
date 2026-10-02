@@ -230,6 +230,14 @@ python plot_results.py
 
 ## Plots
 
-- `results/plot1_main_result.png` — validation LM loss, whole run + zoom
-- `results/plot2_moe_objective.png` — train LM vs total loss, aux loss
-- `results/plot3_moe_diagnostics.png` — load CV, final load heatmap, weight/output divergence, router gradients
+Validation LM loss, whole run and zoom:
+
+![Validation LM loss, whole run and zoom](results/plot1_main_result.png)
+
+Train LM versus total loss, and the aux loss:
+
+![Train LM vs total loss and aux loss](results/plot2_moe_objective.png)
+
+Load CV, final load heatmap, weight and output divergence, and router gradients:
+
+![MoE diagnostics](results/plot3_moe_diagnostics.png)
