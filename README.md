@@ -1,7 +1,5 @@
 # Dense → MoE: train a dense Transformer, convert it, keep training
 
-ERA V5 Session 14 assignment:
-
 > Train a Linear model and convert that into an MoE! Your call on model size
 > and data trained on, but must show they continue to train and reduce loss!
 
@@ -171,8 +169,8 @@ over.
 
 **It does not show MoE beats dense.** The MoE ends lower (1.6566 vs 1.7105), but
 top-2 routing runs two FFNs per token: 1.87M active params vs 1.08M. That is not
-an equal-compute comparison. The assignment asks only that the converted model
-keeps training, which it does.
+an equal-compute comparison. The converted model only needs to keep training
+and reduce loss, which it does.
 
 Other limits: one seed; a tiny model on a tiny dataset; char-level tokens.
 
