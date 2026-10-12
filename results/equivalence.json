@@ -1,0 +1,14 @@
+{
+ "max_abs_logit_diff": 1.430511474609375e-05,
+ "dense_val_loss": 1.817922055721283,
+ "moe_val_loss": 1.8179220378398895,
+ "dense_params": [
+  1075584,
+  1075584
+ ],
+ "moe_params_total_active": [
+  6584704,
+  1866112
+ ],
+ "noise_moe_val_loss": 1.8180004000663756
+}

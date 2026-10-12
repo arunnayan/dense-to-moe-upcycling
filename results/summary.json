@@ -1,0 +1,55 @@
+{
+ "equivalence": {
+  "max_abs_logit_diff": 1.430511474609375e-05,
+  "dense_val_loss": 1.817922055721283,
+  "moe_val_loss": 1.8179220378398895,
+  "dense_params": [
+   1075584,
+   1075584
+  ],
+  "moe_params_total_active": [
+   6584704,
+   1866112
+  ],
+  "noise_moe_val_loss": 1.8180004000663756
+ },
+ "runs": {
+  "dense_A": {
+   "val_start": 4.2045728921890255,
+   "val_end": 1.817922055721283
+  },
+  "dense_cont": {
+   "val_start": 1.817922055721283,
+   "val_end": 1.7105476558208466,
+   "val_min": 1.7105476558208466
+  },
+  "moe_clean": {
+   "val_start": 1.8179220378398895,
+   "val_end": 1.6565618455410003,
+   "val_min": 1.6565618455410003,
+   "load_cv_start": 0.46126461401581764,
+   "load_cv_end": 0.1030215360224247,
+   "weight_cos_start": 1.0000028312206268,
+   "weight_cos_end": 0.9167302351977145,
+   "output_cos_start": 1.0,
+   "output_cos_end": 0.7911296210118702,
+   "router_grad_lm_first": 8.453973162904687e-09,
+   "router_grad_total_first": 0.012412367603604648,
+   "router_grad_lm_last": 0.06838776731103945
+  },
+  "moe_noise": {
+   "val_start": 1.8180004000663756,
+   "val_end": 1.6589120507240296,
+   "val_min": 1.6589120507240296,
+   "load_cv_start": 0.46167226135730743,
+   "load_cv_end": 0.08770291320979595,
+   "weight_cos_start": 0.9987874424883297,
+   "weight_cos_end": 0.916503765221153,
+   "output_cos_start": 0.9993028885551861,
+   "output_cos_end": 0.7948497565729278,
+   "router_grad_lm_first": 0.002716778296553549,
+   "router_grad_total_first": 0.012751741474601692,
+   "router_grad_lm_last": 0.06505081230642848
+  }
+ }
+}

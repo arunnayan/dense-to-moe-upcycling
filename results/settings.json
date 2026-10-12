@@ -1,0 +1,20 @@
+{
+ "seed": 0,
+ "batch_size": 16,
+ "n_val_batches": 20,
+ "val_batch_size": 32,
+ "dense_steps": 2000,
+ "dense_lr": 0.001,
+ "dense_min_lr": 0.0001,
+ "cont_steps": 1500,
+ "cont_lr": 0.0005,
+ "cont_min_lr": 5e-05,
+ "warmup": 100,
+ "n_experts": 8,
+ "top_k": 2,
+ "aux_coef": 0.01,
+ "noise_std": 0.001,
+ "eval_every": 100,
+ "grad_every": 25,
+ "diag_every": 250
+}
